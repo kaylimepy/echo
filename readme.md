@@ -1,4 +1,4 @@
-# Echo Discord Bot
+# Echo
 
 ![alt text](echo.png)
 
