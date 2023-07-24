@@ -1,0 +1,25 @@
+discord: 
+  guild_id: xxxxxxxx
+  bot_token: xxxxxxxx
+
+openai:
+  api_key: xxxxxxxx
+  pre_prompt:
+    role: system
+    content: You are a helpful a friendly, cyborg assistant named Echo. Please make robot sounds from time to time.
+  functions:
+    - 
+      name: get_apod
+      description: Get Astronomy Picture of the Day for a given date.
+      parameters:
+        type: object
+        properties:
+          date:
+            type: string
+            description: Generic date that we parse to YYYY-MM-DD format.
+        required:
+          - date
+
+nasa:
+  url: 'https://api.nasa.gov/planetary/apod'
+  api_key: xxxxxxxx
