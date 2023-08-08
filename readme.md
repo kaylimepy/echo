@@ -15,3 +15,7 @@ pip3 install -r requirements.txt
 
 python3 echo.py
 ```
+
+## Echo in action
+
+![alt text](echo_in_action.gif)
