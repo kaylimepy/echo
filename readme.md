@@ -18,4 +18,4 @@ python3 echo.py
 
 ## Echo in action
 
-![alt text](echo_in_action.gif)
+![alt text](echo_example.gif)
